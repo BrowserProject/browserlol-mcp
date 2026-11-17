@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Support
+    url: https://browser.lol/en/contact
+    about: Questions about your account, plan or a session. Or write to support@browser.lol.
+  - name: MCP docs
+    url: https://browser.lol/en/docs/mcp
+    about: Setup for every client, the tools and how sessions behave.
