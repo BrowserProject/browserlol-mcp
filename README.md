@@ -13,7 +13,7 @@ This repository holds no code. The server is hosted by Browser.lol: you add one 
 - **A real browser in the cloud.** Each session runs in its own container. Nothing to install, no browser driver on your machine.
 - **Input like a person.** Every click, keystroke and scroll is real mouse and keyboard input with human timing.
 - **A live view link.** Your agent shares a link to the session. Open it to watch, take over at any time and hand control back. For a login or a captcha, your agent asks you to step in.
-- **Apps.** Your agent installs what a session needs: Anonymous Mail for sign-ups and verification codes, Files for uploads and downloads, Agent DevTools for web development and debugging.
+- **Apps and developer tools.** Your agent installs what a session needs: Anonymous Mail for sign-ups and verification codes, Files for uploads and downloads. Agent DevTools for web development and debugging are part of every session.
 - **Sessions in other countries.** Start a session with an exit location in another country, a residential address or your own proxy, and with its own language and keyboard layout.
 - **Saved profiles.** Continue a saved profile with its logins and settings, or keep a session as a new one.
 
@@ -178,7 +178,7 @@ Open Settings › Tools › AI Assistant › Model Context Protocol (MCP) › Ad
 
 ## Tools
 
-27 tools. The developer tools work once the session has the Agent DevTools app, which your agent installs itself with `browser_apps`.
+27 tools. The developer tools are part of every session; the assistant uses them only when you ask.
 
 | Tool | What it does |
 |---|---|
